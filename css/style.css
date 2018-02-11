@@ -2,11 +2,11 @@ html, body {
     overflow-x:hidden;
 }
 body {
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif !important;
+    font-family: "Raleway", Helvetica, Arial, sans-serif !important;
     color:#333333;   
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif !important;
+    font-family: "Raleway", Helvetica, Arial, sans-serif !important;
 }
 h1 {
     font-size: 40px !important;
@@ -284,7 +284,7 @@ div#backyard {
     margin:-12px 50px -20px 50px;
     padding:0;
 }
-div#punchline {
+div#shenphen {
     background-color: #FFFF33;
     overflow:hidden;
     margin:-12px 50px -20px 50px;
@@ -308,13 +308,13 @@ header banner div h1 {
     position:relative;
     top:230px;
     clear:right;
-    color:#0;
+    color:#FFF;
 }
 #backyard img, #photofile img {
     margin-right:30px;
     margin-top:-30px;
 }
-#punchline img {
+#shenphen img {
     margin-right:30px;
 }
 #hive img {
