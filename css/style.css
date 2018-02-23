@@ -285,7 +285,7 @@ div#backyard {
     padding:0;
 }
 div#shenphen {
-    background-color: #FFFF33;
+    background-color: #000000;
     overflow:hidden;
     margin:-12px 50px -20px 50px;
     padding:0;
@@ -484,7 +484,7 @@ section div#slightly-shaded {
     margin:0 -150px 0 -150px !important;
 }
 section div#next-project {
-    background-color:#F4F4F4;
+    background-color:#000000;
     margin:0 -150px -10px -150px;
 }
 section div#slightly-shaded p {
