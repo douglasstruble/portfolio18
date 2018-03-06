@@ -57,12 +57,12 @@ p {
 }
 p.project-link {
     font-weight: 500;
-    color:#EFD82A;
+    color:#2200cc;
     margin-top:25px;
 }
 p.resume-link {
     font-weight: 500;
-    color:#EFD82A;
+    color:#2200cc;
     margin:25px 20px 50px 0;
     text-align: right;
 }
@@ -175,7 +175,7 @@ story div {
     margin-bottom:10px;
 }
 story div h2 {
-    color:#EFD82A;
+    color:#3b444b;
 }
 story div p {
     margin:20px 150px;
@@ -554,7 +554,7 @@ footer div.contact a {
     font-weight:700;
     text-decoration: none;
     padding:15px 40px !important;
-    background-color: #EFD82A;
+    background-color: #3b444b;
     border:2px solid #FFFFFF !important;
     box-shadow: 0 5px 10px #888888
 }
