@@ -116,7 +116,7 @@ main div.home {
     padding:30px;
 }
 main h1 {
-    margin:80px auto 30px auto;
+    margin:160px auto 30px auto;
     line-height: 50px;
 }
 main p {
@@ -278,31 +278,52 @@ div.resume img {
 
 
 /* CASE STUDY BANNERS */
+
 div#backyard {
     background-color: #257A99;
     overflow:hidden;
-    margin:-12px 50px -20px 50px;
     padding:0;
+    margin-bottom:-19px;
 }
 div#shenphen {
-    background-color: #000000;
+    background-color: #ffff33;
     overflow:hidden;
-    margin:-12px 50px -20px 50px;
+    /*margin:-12px 50px -20px 50px;*/
     padding:0;
+    margin-bottom:-19px; 
+  }  
+    div#attention {
+    background-color: #ffffff;
+    overflow:hidden;
+    /*margin:-12px 50px -20px 50px;*/
+    padding:0;
+    margin-bottom:-19px;
 }
 div#hive {
     background-color: #22303E;
     overflow:hidden;
-    margin:-12px 50px -20px 50px;
+/*    margin:-12px 50px -20px 50px;*/
     padding:0;
     
 }
 div#photofile {
     background-color: #ff2d00;
     overflow:hidden;
-    margin:-12px 50px -20px 50px;
+/*    margin:-12px 50px -20px 50px;*/
     padding:0;
+    margin-bottom:-19px;
 }
+
+div#attention {
+    background-color: #ffffff;
+    overflow:hidden;
+    /*margin:-12px 50px -20px 50px;*/
+    padding:0;
+    margin-bottom:; 
+}
+
+
+
 header banner div h1 {
     margin:0 50px 0 50px;
     padding-left:20px;
@@ -311,17 +332,15 @@ header banner div h1 {
     clear:right;
     color:#FFF;
 }
-#backyard img, #photofile img {
-    margin-right:30px;
-    margin-top:-30px;
+#backyard img, 
+#photofile img,
+#shenphen img,
+#hive img
+{
+    margin: 0 auto;
+    display: block;
 }
-#shenphen img {
-    margin-right:30px;
-}
-#hive img {
-    margin-top:-50px;
-    margin-right:30px;
-}
+
 header banner div.menu {
     background-color: #F2F2F2;
     margin-bottom: -40px;
@@ -459,9 +478,20 @@ section {
 section div { /* for full case studies */
     margin-bottom:10px;
 }
-section div.preview {
-    margin:30px 20px 30px 20px;
+
+#preview{
+    margin-top: 0;
 }
+section div.preview {
+    padding: 30px 20px 30px 20px;
+    margin-bottom: 0;
+}
+
+/* Preview colored background colors */
+div.preview.punchline{
+    background-color: ffff33;
+}
+
 section div#shaded { /* backyard solution */
     background-color:#DADADA;
     height:550px;
@@ -592,4 +622,42 @@ footer div ul > li > a {
         margin-right:10px;
         margin-bottom:0;
     }
+}
+
+#menu .menu{
+    background-color: ffffff !important;
+}
+
+#menu ul > li{
+    margin: 0;
+}
+#menu ul > li > a {
+    padding: 5px 20px;
+    display: block;
+}
+
+#menu ul {
+    margin-bottom: 0;
+}
+
+#menu ul li:nth-child(1) {
+    background-color: #CCCCCC;
+}
+#menu ul li:nth-child(2) {
+    background-color: #FFFF00;
+}
+#menu ul li:nth-child(3) {
+    background-color: #00FFFF;
+}
+#menu ul li:nth-child(4) {
+    background-color: #00FF01;
+}
+#menu ul li:nth-child(5) {
+    background-color: #FF00FF;
+}
+#menu ul li:nth-child(6) {
+    background-color: #FE0000;
+}
+#menu ul li:nth-child(7) {
+    background-color: #0000FE
 }
